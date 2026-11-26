@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Infernal Codex — Hades Aspects, Duos &amp; Keepsakes</title>
+<title>The Infernal Codex â€” Hades Aspects, Duos &amp; Keepsakes</title>
 <meta name="description" content="A diegetic field guide to all 24 Hades weapon aspects, 28 duo boons, 25 keepsakes, and 6 Secret Stash companions, with builds, hammers, and forging notes.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23140a08'/%3E%3Cpath d='M17 4c1.5 4.5 6 6.5 6 12a7 7 0 0 1-14 0c0-3.2 2-5.6 4.2-8 .1 2.2 1 3.6 2.1 4.6.9-3 .9-5.9 1.7-8.6z' fill='%23e08a5b'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -345,7 +345,7 @@
   .prereq-mode{margin-left:auto; color:var(--muted-2); font-size:.52rem; letter-spacing:.08em; text-transform:uppercase}
   .prereq ul{list-style:none; margin:5px 0 0; padding:0; display:grid; gap:2px}
   .prereq li{position:relative; padding-left:8px; color:var(--muted); font-size:.72rem; line-height:1.28}
-  .prereq li::before{content:"·"; position:absolute; left:0; color:var(--gold); opacity:.7}
+  .prereq li::before{content:"Â·"; position:absolute; left:0; color:var(--gold); opacity:.7}
   .duo-meta{display:grid; gap:3px; color:var(--muted); font-size:.68rem; line-height:1.35}
   .duo-meta div{display:flex; gap:6px}
   .duo-meta b{flex:0 0 38px; color:var(--gold); font-size:.56rem; letter-spacing:.1em; text-transform:uppercase; padding-top:2px}
@@ -448,7 +448,7 @@
   .scaling b{color:var(--gold); font-size:.56rem; letter-spacing:.12em; text-transform:uppercase}
   .plan-list{list-style:none; display:grid; gap:5px; margin:0; padding:0}
   .plan-list li{position:relative; padding-left:16px; color:var(--bone-dim); font-size:.78rem; line-height:1.38}
-  .plan-list li::before{content:"›"; position:absolute; left:0; top:-1px; color:var(--gold); font-size:1.05rem}
+  .plan-list li::before{content:"â€º"; position:absolute; left:0; top:-1px; color:var(--gold); font-size:1.05rem}
 </style>
 <style>
   .build-grid{display:grid; grid-template-columns:1fr 1fr; gap:7px}
@@ -504,7 +504,7 @@
   .note-mark{display:inline-grid; place-items:center; width:24px; height:24px; border:1px solid rgba(201,162,75,.35); border-radius:50%; color:var(--gold); font-family:var(--font-name); font-size:.95rem}
   .note-list{list-style:none; display:grid; gap:7px; margin:0; padding:0}
   .note-list li{position:relative; padding-left:13px; color:var(--bone-dim); font-size:.76rem; line-height:1.36}
-  .note-list li::before{content:"—"; position:absolute; left:0; top:-1px; color:var(--gold); opacity:.7}
+  .note-list li::before{content:"â€”"; position:absolute; left:0; top:-1px; color:var(--gold); opacity:.7}
   .note-list b{color:var(--bone); font-weight:700}
 
   /* Build lines */
@@ -698,10 +698,10 @@
 
   <div class="tabbar">
     <div class="tabs wrap" role="tablist" aria-label="Codex sections">
-      <button class="tab" id="tab-tiers" type="button" role="tab" aria-selected="true" aria-controls="tier-panel" data-tab="tiers"><span class="tab-emoji" aria-hidden="true">🏆</span>Aspect Tier List</button>
-      <button class="tab" id="tab-duos" type="button" role="tab" aria-selected="false" aria-controls="duo-panel" data-tab="duos"><span class="tab-emoji" aria-hidden="true">⚡</span>Duo Boons &amp; Builds</button>
-      <button class="tab" id="tab-keepsakes" type="button" role="tab" aria-selected="false" aria-controls="keep-panel" data-tab="keepsakes"><span class="tab-emoji" aria-hidden="true">🕯️</span>Keepsakes &amp; Stashes</button>
-      <span class="tab-note"><b>Codex</b> · 1.0</span>
+      <button class="tab" id="tab-tiers" type="button" role="tab" aria-selected="true" aria-controls="tier-panel" data-tab="tiers"><span class="tab-emoji" aria-hidden="true">ðŸ†</span>Aspect Tier List</button>
+      <button class="tab" id="tab-duos" type="button" role="tab" aria-selected="false" aria-controls="duo-panel" data-tab="duos"><span class="tab-emoji" aria-hidden="true">âš¡</span>Duo Boons &amp; Builds</button>
+      <button class="tab" id="tab-keepsakes" type="button" role="tab" aria-selected="false" aria-controls="keep-panel" data-tab="keepsakes"><span class="tab-emoji" aria-hidden="true">ðŸ•¯ï¸</span>Keepsakes &amp; Stashes</button>
+      <span class="tab-note"><b>Codex</b> Â· 1.0</span>
     </div>
   </div>
 
@@ -718,7 +718,7 @@
       <label class="search-box" for="search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
         <span class="sr-only">Search the codex</span>
-        <input id="search" type="search" placeholder="Search aspects, boons, hammers, duos…" autocomplete="off" spellcheck="false">
+        <input id="search" type="search" placeholder="Search aspects, boons, hammers, duosâ€¦" autocomplete="off" spellcheck="false">
         <button id="search-clear" class="search-clear" type="button" aria-label="Clear search" hidden>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
         </button>
@@ -737,7 +737,7 @@
           <div class="eyebrow">The Arms</div>
           <h2>Twenty-four ways to break the Underworld</h2>
         </div>
-        <p>Ranked for 1.0 general play: speed, consistency, and how much the aspect asks of you. The top tier is not a promise—it is a head start.</p>
+        <p>Ranked for 1.0 general play: speed, consistency, and how much the aspect asks of you. The top tier is not a promiseâ€”it is a head start.</p>
       </div>
       <div id="tier-list" class="tier-list"></div>
     </section>
@@ -781,7 +781,7 @@
 
   <footer class="wrap" style="padding-block:0 42px;color:var(--muted-2);font-size:.67rem;letter-spacing:.06em;line-height:1.5">
     <div class="ink-rule" style="margin-bottom:16px"></div>
-    <p style="margin:0;max-width:90ch">Unofficial fan codex. <em>Hades</em> is © Supergiant Games. Aspect and boon names belong to the game; artwork is hotlinked from the Hades Wiki with inline SVG fallbacks. Numbers reflect max-rank 1.0 data and are meant for planning, not warranty.</p>
+    <p style="margin:0;max-width:90ch">Unofficial fan codex. <em>Hades</em> is Â© Supergiant Games. Aspect and boon names belong to the game; artwork is hotlinked from the Hades Wiki with inline SVG fallbacks. Numbers reflect max-rank 1.0 data and are meant for planning, not warranty.</p>
   </footer>
 </div>
 
@@ -893,38 +893,38 @@
     return '<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+GOD_GLYPHS[god]+'</svg>';
   }
   const IMAGE_URLS = {
-    "Zagreus_Aspect_Sword.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/5e/Zagreus_Aspect_Sword.png/revision/latest?cb=20191013211619",
-    "Nemesis_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/93/Nemesis_Aspect.png/revision/latest?cb=20191013211630",
-    "Poseidon_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/ce/Poseidon_Aspect.png/revision/latest?cb=20191013211640",
-    "Arthur_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/8a/Arthur_Aspect.png/revision/latest?cb=20200313005516",
-    "Zagreus_Aspect_Spear.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/7/75/Zagreus_Aspect_Spear.png/revision/latest?cb=20191013212228",
-    "Achilles_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/b/b9/Achilles_Aspect.png/revision/latest?cb=20191013212233",
-    "Hades_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/19/Hades_Aspect.png/revision/latest?cb=20191013212242",
-    "Guan Yu Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/50/Guan_Yu_Aspect.png/revision/latest?cb=20200128210052",
-    "Zagreus_Aspect_Shield.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/56/Zagreus_Aspect_Shield.png/revision/latest?cb=20191013211832",
-    "Chaos_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/0/0e/Chaos_Aspect.png/revision/latest?cb=20191013211843",
-    "Zeus_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/10/Zeus_Aspect.png/revision/latest?cb=20191013211849",
-    "Shield aspect beuwulf.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c6/Shield_aspect_beuwulf.png/revision/latest?cb=20200624130152",
-    "Zagreus_Aspect_Bow.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/51/Zagreus_Aspect_Bow.png/revision/latest?cb=20191013212053",
-    "Chiron_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/e/ee/Chiron_Aspect.png/revision/latest?cb=20191013212100",
-    "Hera_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f7/Hera_Aspect.png/revision/latest?cb=20191013212111",
-    "Rama aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/60/Rama_aspect.png/revision/latest?cb=20200624130119",
-    "Zagreus_Aspect_Fists.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/b/be/Zagreus_Aspect_Fists.png/revision/latest?cb=20200313013824",
-    "Talos_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/2/2a/Talos_Aspect.png/revision/latest?cb=20200313014316",
-    "Demeter_Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f2/Demeter_Aspect.png/revision/latest?cb=20200313014432",
-    "Gilgamesh Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/e/ee/Gilgamesh_Aspect.png/revision/latest?cb=20200927232709",
-    "Zagreus Rail Image.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/0/05/Zagreus_Rail_Image.png/revision/latest?cb=20191013212341",
-    "Eris Aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/ca/Eris_Aspect.png/revision/latest?cb=20191013212354",
-    "Hestia Aspect Image.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/5a/Hestia_Aspect_Image.png/revision/latest?cb=20191013212407",
-    "Lycifer aspect.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/17/Lycifer_aspect.png/revision/latest?cb=20200624130049",
-    "Zeus symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c5/Zeus_symbol.png/revision/latest?cb=20181212020227",
-    "Poseidon symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c6/Poseidon_symbol.png/revision/latest?cb=20181212020226",
-    "Athena symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/81/Athena_symbol.png/revision/latest?cb=20190119213057",
-    "Aphrodite symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/1d/Aphrodite_symbol.png/revision/latest?cb=20181212020221",
-    "Artemis symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/7/7b/Artemis_symbol.png/revision/latest?cb=20181212020223",
-    "Ares symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c9/Ares_symbol.png/revision/latest?cb=20181212020222",
-    "Dionysus symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/81/Dionysus_symbol.png/revision/latest?cb=20190215165606",
-    "Demeter symbol.png":"https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/98/Demeter_symbol.png/revision/latest?cb=20200127125814"
+    "Zagreus_Aspect_Sword.png":"assets/zagreus-aspect-sword.png",
+    "Nemesis_Aspect.png":"assets/nemesis-aspect.png",
+    "Poseidon_Aspect.png":"assets/poseidon-aspect.png",
+    "Arthur_Aspect.png":"assets/arthur-aspect.png",
+    "Zagreus_Aspect_Spear.png":"assets/zagreus-aspect-spear.png",
+    "Achilles_Aspect.png":"assets/achilles-aspect.png",
+    "Hades_Aspect.png":"assets/hades-aspect.png",
+    "Guan Yu Aspect.png":"assets/guan-yu-aspect.png",
+    "Zagreus_Aspect_Shield.png":"assets/zagreus-aspect-shield.png",
+    "Chaos_Aspect.png":"assets/chaos-aspect.png",
+    "Zeus_Aspect.png":"assets/zeus-aspect.png",
+    "Shield aspect beuwulf.png":"assets/shield-aspect-beuwulf.png",
+    "Zagreus_Aspect_Bow.png":"assets/zagreus-aspect-bow.png",
+    "Chiron_Aspect.png":"assets/chiron-aspect.png",
+    "Hera_Aspect.png":"assets/hera-aspect.png",
+    "Rama aspect.png":"assets/rama-aspect.png",
+    "Zagreus_Aspect_Fists.png":"assets/zagreus-aspect-fists.png",
+    "Talos_Aspect.png":"assets/talos-aspect.png",
+    "Demeter_Aspect.png":"assets/demeter-aspect.png",
+    "Gilgamesh Aspect.png":"assets/gilgamesh-aspect.png",
+    "Zagreus Rail Image.png":"assets/zagreus-rail-image.png",
+    "Eris Aspect.png":"assets/eris-aspect.png",
+    "Hestia Aspect Image.png":"assets/hestia-aspect-image.png",
+    "Lycifer aspect.png":"assets/lycifer-aspect.png",
+    "Zeus symbol.png":"assets/zeus-symbol.png",
+    "Poseidon symbol.png":"assets/poseidon-symbol.png",
+    "Athena symbol.png":"assets/athena-symbol.png",
+    "Aphrodite symbol.png":"assets/aphrodite-symbol.png",
+    "Artemis symbol.png":"assets/artemis-symbol.png",
+    "Ares symbol.png":"assets/ares-symbol.png",
+    "Dionysus symbol.png":"assets/dionysus-symbol.png",
+    "Demeter symbol.png":"assets/demeter-symbol.png"
   };
 
   function wikiUrl(file, width){
@@ -964,7 +964,7 @@
       targets:[{kind:"duo",name:"Merciful End"},{kind:"duo",name:"Deadly Reversal"},{kind:"legendary",god:"Athena",name:"Divine Protection"}],
       hammers:["Flurry Slash","Double Edge","Piercing Wave"],
       keepsakes:route("Athena","Owl Pendant","Ares","Blood-Filled Vial"),
-      lore:"The baseline blade. No gimmick, no safety net—just clean tempo and a fast dash-strike."
+      lore:"The baseline blade. No gimmick, no safety netâ€”just clean tempo and a fast dash-strike."
     },
     {
       id:"sword-nemesis", name:"Nemesis", weapon:"sword", tier:"A", patron:"Nemesis",
@@ -998,7 +998,7 @@
       tagline:"Stand in Hallowed Ground; trade hits behind 40% DR.",
       stats:[["Max life","+50 HP"],["Damage reduction","40%"],["Combo","60 / 80 / 200"]],
       scaling:"Hallowed Ground grants 20% / 25% / 30% / 35% / 40% damage reduction and slows projectiles; combo 60 / 80 / 200; Special 70.",
-      gameplan:["Plant Hallowed Ground before committing; fight from inside the aura.","Use the slow projectile field to trade on your terms.","Heavy attacks are the point—don't chase; make them come to you."],
+      gameplan:["Plant Hallowed Ground before committing; fight from inside the aura.","Use the slow projectile field to trade on your terms.","Heavy attacks are the pointâ€”don't chase; make them come to you."],
       build:{attack:b("Aphrodite","Heartbreak Strike"), special:b("Athena","Divine Flourish"), cast:b("Artemis","True Shot"), dash:b("Athena","Divine Dash")},
       targets:[{kind:"duo",name:"Heart Rend"},{kind:"duo",name:"Deadly Reversal"},{kind:"legendary",god:"Athena",name:"Divine Protection"}],
       hammers:["Greater Consecration","Double Edge","Super Nova"],
@@ -1020,11 +1020,11 @@
     },
     {
       id:"spear-achilles", name:"Achilles", weapon:"spear", tier:"S", patron:"Achilles",
-      image:"Achilles_Aspect.png", signature:"+150% ×4",
+      image:"Achilles_Aspect.png", signature:"+150% Ã—4",
       tagline:"Special, retrieve, then four buffed attacks or casts.",
-      stats:[["Next 4 hits","+150%"],["Special range","−10%"],["Rank 5","Max"]],
-      scaling:"After Special retrieve with Raging Rush, next 4 Attacks or Casts deal +50% / +75% / +100% / +125% / +150%. Special range −10%.",
-      gameplan:["Throw Special, retrieve it, then spend all four buffed hits on the target.","Cast counts—open with a buffed Cast if the room is dangerous.","The window is short; pre-position before you retrieve."],
+      stats:[["Next 4 hits","+150%"],["Special range","âˆ’10%"],["Rank 5","Max"]],
+      scaling:"After Special retrieve with Raging Rush, next 4 Attacks or Casts deal +50% / +75% / +100% / +125% / +150%. Special range âˆ’10%.",
+      gameplan:["Throw Special, retrieve it, then spend all four buffed hits on the target.","Cast countsâ€”open with a buffed Cast if the room is dangerous.","The window is short; pre-position before you retrieve."],
       build:{attack:b("Artemis","Deadly Strike"), special:b("Athena","Divine Flourish"), cast:b("Ares","Slicing Shot"), dash:b("Athena","Divine Dash")},
       targets:[{kind:"duo",name:"Hunting Blades"},{kind:"duo",name:"Deadly Reversal"},{kind:"legendary",god:"Artemis",name:"Fully Loaded"}],
       hammers:["Serrated Point","Triple Jab","Extending Jab"],
@@ -1046,9 +1046,9 @@
     },
     {
       id:"spear-guan-yu", name:"Guan Yu", weapon:"spear", tier:"C", patron:"Guan Yu",
-      image:"Guan Yu Aspect.png", signature:"−50% life",
+      image:"Guan Yu Aspect.png", signature:"âˆ’50% life",
       tagline:"Spin to heal; sacrifice half your life to do it.",
-      stats:[["Life & healing","−50%"],["Spin heal","1 HP / hit"],["Blade","Frost Fair"]],
+      stats:[["Life & healing","âˆ’50%"],["Spin heal","1 HP / hit"],["Blade","Frost Fair"]],
       scaling:"Max life and healing received are reduced by 70% / 65% / 60% / 55% / 50%. Frost Fair Blade spin heals 1 HP per hit.",
       gameplan:["Spin through packs to heal, but only when the room is already safe.","Half health means one mistake is fatal; respect projectiles.","Winged Serpent turns the Special into a ranged heal/damage tool."],
       build:{attack:b("Aphrodite","Heartbreak Strike"), special:b("Zeus","Thunder Flourish"), cast:b("Artemis","True Shot"), dash:b("Athena","Divine Dash")},
@@ -1089,7 +1089,7 @@
       tagline:"Throw the disc, keep attacking, let it tick.",
       stats:[["Disc damage","30 / hit"],["Tick rate","0.3 sec"],["Duration","10 sec"]],
       scaling:"Blitz Disc deals 8 / 13 / 19 / 24 / 30 damage every 0.3 seconds for 10 seconds. Attack remains available while it is out.",
-      gameplan:["Throw the disc into a boss or pack, then Attack from safety.","Every tick can carry Zeus lightning, Doom, or Hangover—stack on-hit effects.","Recall early when the next room matters more than the last tick."],
+      gameplan:["Throw the disc into a boss or pack, then Attack from safety.","Every tick can carry Zeus lightning, Doom, or Hangoverâ€”stack on-hit effects.","Recall early when the next room matters more than the last tick."],
       build:{attack:b("Artemis","Deadly Strike"), special:b("Zeus","Thunder Flourish"), cast:b("Poseidon","Flood Shot"), dash:b("Athena","Divine Dash")},
       targets:[{kind:"duo",name:"Sea Storm"},{kind:"duo",name:"Unshakable Mettle"},{kind:"legendary",god:"Zeus",name:"Splitting Bolt"}],
       hammers:["Sudden Rush","Pulverizing Blow","Ferocious Guard"],
@@ -1102,7 +1102,7 @@
       tagline:"Load Casts, charge Dragon Rush, delete a room.",
       stats:[["Damage taken","+10%"],["Dragon Rush","+100%"],["Cast","Empowers Rush"]],
       scaling:"Dragon Rush gains +20% / +40% / +60% / +80% / +100% bonus damage and area; Beowulf takes +10% damage. Cast loads bloodstones into the Rush.",
-      gameplan:["Load Casts first, then charge Dragon Rush and release into the pack.","The loaded casts fire on impact; aim the Rush, not the Cast.","You take +10% damage—block first, heroics second."],
+      gameplan:["Load Casts first, then charge Dragon Rush and release into the pack.","The loaded casts fire on impact; aim the Rush, not the Cast.","You take +10% damageâ€”block first, heroics second."],
       build:{attack:b("Aphrodite","Heartbreak Strike"), special:b("Zeus","Thunder Flourish"), cast:b("Poseidon","Flood Shot"), dash:b("Athena","Divine Dash")},
       targets:[{kind:"duo",name:"Sea Storm"},{kind:"duo",name:"Smoldering Air"},{kind:"legendary",god:"Zeus",name:"Splitting Bolt"}],
       hammers:["Charged Shot","Minotaur Rush","Unyielding Defense"],
@@ -1180,7 +1180,7 @@
       tagline:"Pull them in, then hit 50% harder for six seconds.",
       stats:[["Pull damage","20"],["Attack / Cast","+50%"],["Window","6 sec"]],
       scaling:"Magnetic Cutter pulls foes for 20 damage; afterwards Attack and Cast gain +10% / +20% / +30% / +40% / +50% for 6 seconds.",
-      gameplan:["Open with Special to pull, then unload Attack or Cast inside the window.","Pull through walls and around corners; it is a positioning tool too.","The buff is strong but the setup is clunky—commit only when it lands."],
+      gameplan:["Open with Special to pull, then unload Attack or Cast inside the window.","Pull through walls and around corners; it is a positioning tool too.","The buff is strong but the setup is clunkyâ€”commit only when it lands."],
       build:{attack:b("Aphrodite","Heartbreak Strike"), special:b("Poseidon","Tempest Flourish"), cast:b("Zeus","Electric Shot"), dash:b("Athena","Divine Dash")},
       targets:[{kind:"duo",name:"Sea Storm"},{kind:"duo",name:"Smoldering Air"},{kind:"legendary",god:"Zeus",name:"Splitting Bolt"}],
       hammers:["Long Knuckle","Concentrated Knuckle","Rolling Knuckle"],
@@ -1193,7 +1193,7 @@
       tagline:"Twelve strikes, then a five-hit Giga Cutter.",
       stats:[["Strikes to charge","12"],["Extra hits","+5"],["Rank 5","Max"]],
       scaling:"After 12 strikes, the next Special gains +1 / +2 / +3 / +4 / +5 additional hits.",
-      gameplan:["Count to twelve, then Special into the biggest target.","Attack speed makes the count faster; don't interrupt the combo.","The charged Special is the payoff—save it for elites and bosses."],
+      gameplan:["Count to twelve, then Special into the biggest target.","Attack speed makes the count faster; don't interrupt the combo.","The charged Special is the payoffâ€”save it for elites and bosses."],
       build:{attack:b("Artemis","Deadly Strike"), special:b("Ares","Curse of Pain"), cast:b("Aphrodite","Crush Shot"), dash:b("Athena","Divine Dash")},
       targets:[{kind:"duo",name:"Heart Rend"},{kind:"duo",name:"Curse of Longing"},{kind:"legendary",god:"Athena",name:"Divine Protection"}],
       hammers:["Flying Cutter","Rush Kick","Long Knuckle"],
@@ -1322,46 +1322,46 @@
   const KEEP_GROUPS = {
     guard:{label:"Guard & recovery", blurb:"Bail out of mistakes, soften the first hit, or buy one more life."},
     damage:{label:"Damage & tempo", blurb:"Turn clean play into snowballing offense; most of these reward position."},
-    economy:{label:"Routing & economy", blurb:"More Obols, more healing, more upgrades—value that compounds across a run."},
+    economy:{label:"Routing & economy", blurb:"More Obols, more healing, more upgradesâ€”value that compounds across a run."},
     divine:{label:"Divine callers", blurb:"Force a god into the pool, then keep the rarity bonus after the keepsake is swapped."}
   };
   const KEEP_ORDER = ["guard","damage","economy","divine"];
 
   const KEEPSAKES = [
-    {id:"collar",name:"Old Spiked Collar",source:"Cerberus",group:"guard",effect:"Gain +25 / +38 / +50 max Health.",use:"Tartarus comfort pick when your Mirror is damage-light; the extra Life also makes Chaos Health curses safer.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/e/ed/Old_Spiked_Collar.png/revision/latest?cb=20181214232216"},
-    {id:"bracer",name:"Myrmidon Bracer",source:"Achilles",group:"guard",effect:"Take 20 / 25 / 30% less damage from the front, but 10% more from behind.",use:"Face the pack and back into a wall; do not backpedal into chip damage from the room behind you.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/92/Myrmidon_Bracer.png/revision/latest?cb=20181214232107"},
-    {id:"shawl",name:"Black Shawl",source:"Nyx",group:"damage",effect:"Deal 10 / 15 / 20% more damage to undamaged foes and from behind.",use:"Open every room from behind; it amplifies first-hit burst, not sustained DPS.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/7/7d/Black_Shawl.png/revision/latest?cb=20181214231305"},
-    {id:"butterfly",name:"Pierced Butterfly",source:"Thanatos",group:"damage",effect:"Gain +1 / +1.5 / +2% damage for each encounter cleared without taking damage.",use:"Only clean rooms count. Trove fights give no credit; the final Satyr Tunnel room does.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/58/Pierced_Butterfly.png/revision/latest?cb=20190510030913"},
-    {id:"hourglass",name:"Bone Hourglass",source:"Charon",group:"economy",effect:"Well of Charon item durations last +4 / +6 / +8 encounters.",use:"Buy Well items before the region boss; duration is encounter-based, not room-based.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/fe/Bone_Hourglass.png/revision/latest?cb=20200707134204"},
-    {id:"purse",name:"Chthonic Coin Purse",source:"Hypnos",group:"economy",effect:"Gain 100 / 125 / 150 Obols once per escape.",use:"Cash out early, then swap at the next region; the Obols stay with you.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/d/d0/Chthonic_Coin_Purse.png/revision/latest?cb=20181214231435"},
-    {id:"earring",name:"Skull Earring",source:"Megaera",group:"damage",effect:"Deal 20 / 30 / 40% more damage while at 35% Health or less.",use:"Pairs with Last Stand and glass builds; heal above 35% and the bonus turns off.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/8b/Skull_Earring.png/revision/latest?cb=20181215040952"},
-    {id:"memory",name:"Distant Memory",source:"Orpheus",group:"damage",effect:"Deal 10 / 20 / 30% more damage to foes at least 500 units away.",use:"Works best on Rail and Bow; 500 units is roughly across a standard room.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/88/Distant_Memory.png/revision/latest?cb=20181214231613"},
-    {id:"duster",name:"Harpy Feather Duster",source:"Dusa",group:"economy",effect:"Broken urns have a 3 / 5 / 6% chance to contain healing.",use:"Break urns on the route, not mid-fight; the roll is per urn, so volume matters.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/b/b5/Harpy_Feather_Duster.png/revision/latest?cb=20181214231809"},
-    {id:"tooth",name:"Lucky Tooth",source:"Skelly",group:"guard",effect:"Restore 50 / 75 / 100 Health when Life is depleted, once per escape.",use:"It sits after Death Defiances, so treat it as a second safety net, not a replacement.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/b/b1/Lucky_Tooth.png/revision/latest?cb=20181214231951"},
-    {id:"thunder",name:"Thunder Signet",source:"Zeus",group:"divine",effect:"Your next boon is Zeus; Zeus boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"The forced god applies only to the next boon; the rarity bonus stays after you swap.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/19/Thunder_Signet.png/revision/latest?cb=20181214231524"},
-    {id:"conch",name:"Conch Shell",source:"Poseidon",group:"divine",effect:"Your next boon is Poseidon; Poseidon boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Start Poseidon when you need a knockback core; the rarity bonus survives the swap.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/e/ed/Conch_Shell.png/revision/latest?cb=20181214230636"},
-    {id:"owl",name:"Owl Pendant",source:"Athena",group:"divine",effect:"Your next boon is Athena; Athena boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force Divine Dash early, then swap; the rarity bonus keeps working all run.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f9/Owl_Pendant.png/revision/latest?cb=20181214232304"},
-    {id:"rose",name:"Eternal Rose",source:"Aphrodite",group:"divine",effect:"Your next boon is Aphrodite; Aphrodite boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Take it when Weak is the plan; the forced boon can be Attack, Special, Cast, or Dash.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/55/Eternal_Rose.png/revision/latest?cb=20181214231918"},
-    {id:"vial",name:"Blood-Filled Vial",source:"Ares",group:"divine",effect:"Your next boon is Ares; Ares boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force Doom onto the slot you hit most; the rarity bonus remains after the swap.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/d/d2/Blood-Filled_Vial.png/revision/latest?cb=20181214231345"},
-    {id:"arrowhead",name:"Adamant Arrowhead",source:"Artemis",group:"divine",effect:"Your next boon is Artemis; Artemis boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force the crit core before a Heart Rend run; the bonus persists after you swap.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/7/70/Adamant_Arrowhead.png/revision/latest?cb=20181213005219"},
-    {id:"cup",name:"Overflowing Cup",source:"Dionysus",group:"divine",effect:"Your next boon is Dionysus; Dionysus boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Start Hangover on the slot you apply fastest; the rarity bonus outlives the keepsake.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/3/3f/Overflowing_Cup.png/revision/latest?cb=20190215165516"},
-    {id:"plume",name:"Lambent Plume",source:"Hermes",group:"economy",effect:"Gain +1 / +1.1 / +1.2% dodge and move speed for each encounter cleared quickly.",use:"Speed-clear rooms; Troves do not count, but Survival encounters do.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/12/Lambent_Plume.png/revision/latest?cb=20190611232130"},
-    {id:"horn",name:"Frostbitten Horn",source:"Demeter",group:"divine",effect:"Your next boon is Demeter; Demeter boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force the Demeter core for a cast or Frost build; the rarity bonus stays after the swap.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/42/Frostbitten_Horn.png/revision/latest?cb=20200313011952"},
-    {id:"egg",name:"Cosmic Egg",source:"Chaos",group:"economy",effect:"Enter Chaos Gates without losing Health; Chaos boons have +20 / +30 / +40% Rare-or-better chance.",use:"Enter Chaos at full Life to bank the free gate; the bonus applies only to Chaos boons.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/19/Cosmic_Egg.png/revision/latest?cb=20190122001310"},
-    {id:"shackle",name:"Shattered Shackle",source:"Sisyphus",group:"damage",effect:"Attack, Special, and Cast deal +50 / +75 / +100% damage while not empowered by a Boon.",use:"Take it before you pick up Attack, Special, or Cast boons; it turns off the moment a god empowers that slot.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/47/Shattered_Shackle.png/revision/latest?cb=20181214232336"},
-    {id:"acorn",name:"Evergreen Acorn",source:"Eurydice",group:"guard",effect:"In the final encounter of each region, take 0 damage from the first 3 / 4 / 5 hits.",use:"Put it on before the region boss; the hits are consumed even by chip damage.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/e/e5/Evergreen_Acorn.png/revision/latest?cb=20200106001142"},
-    {id:"spearpoint",name:"Broken Spearpoint",source:"Patroclus",group:"guard",effect:"After taking damage, become impervious for 1 / 1.25 / 1.5 sec; refreshes after 7 sec.",use:"Take it before Elysium's multi-hit fights; the 7-second internal cooldown is the real limit.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f1/Broken_Spearpoint.png/revision/latest?cb=20190508060736"},
-    {id:"pom",name:"Pom Blossom",source:"Persephone",group:"economy",effect:"Every 6 / 5 / 4 encounters, gain +1 Level to a random Boon.",use:"Equip early to bank levels, then swap before the boss; the levels stay with the boons.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/d/d1/Pom_Blossom.png/revision/latest?cb=20200925012154"},
-    {id:"sigil",name:"Sigil of the Dead",source:"Hades",group:"divine",effect:"Call becomes Hades' Aid; God Gauge starts 10 / 20 / 30% full; stealth damage +50 / 75 / 100%.",use:"Only after the story. It replaces your Call, so do not build around another god's Aid.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/fa/Sigil_of_the_Dead.png/revision/latest?cb=20200925220738"}
+    {id:"collar",name:"Old Spiked Collar",source:"Cerberus",group:"guard",effect:"Gain +25 / +38 / +50 max Health.",use:"Tartarus comfort pick when your Mirror is damage-light; the extra Life also makes Chaos Health curses safer.",img:"assets/old-spiked-collar.png"},
+    {id:"bracer",name:"Myrmidon Bracer",source:"Achilles",group:"guard",effect:"Take 20 / 25 / 30% less damage from the front, but 10% more from behind.",use:"Face the pack and back into a wall; do not backpedal into chip damage from the room behind you.",img:"assets/myrmidon-bracer.png"},
+    {id:"shawl",name:"Black Shawl",source:"Nyx",group:"damage",effect:"Deal 10 / 15 / 20% more damage to undamaged foes and from behind.",use:"Open every room from behind; it amplifies first-hit burst, not sustained DPS.",img:"assets/black-shawl.png"},
+    {id:"butterfly",name:"Pierced Butterfly",source:"Thanatos",group:"damage",effect:"Gain +1 / +1.5 / +2% damage for each encounter cleared without taking damage.",use:"Only clean rooms count. Trove fights give no credit; the final Satyr Tunnel room does.",img:"assets/pierced-butterfly.png"},
+    {id:"hourglass",name:"Bone Hourglass",source:"Charon",group:"economy",effect:"Well of Charon item durations last +4 / +6 / +8 encounters.",use:"Buy Well items before the region boss; duration is encounter-based, not room-based.",img:"assets/bone-hourglass.png"},
+    {id:"purse",name:"Chthonic Coin Purse",source:"Hypnos",group:"economy",effect:"Gain 100 / 125 / 150 Obols once per escape.",use:"Cash out early, then swap at the next region; the Obols stay with you.",img:"assets/chthonic-coin-purse.png"},
+    {id:"earring",name:"Skull Earring",source:"Megaera",group:"damage",effect:"Deal 20 / 30 / 40% more damage while at 35% Health or less.",use:"Pairs with Last Stand and glass builds; heal above 35% and the bonus turns off.",img:"assets/skull-earring.png"},
+    {id:"memory",name:"Distant Memory",source:"Orpheus",group:"damage",effect:"Deal 10 / 20 / 30% more damage to foes at least 500 units away.",use:"Works best on Rail and Bow; 500 units is roughly across a standard room.",img:"assets/distant-memory.png"},
+    {id:"duster",name:"Harpy Feather Duster",source:"Dusa",group:"economy",effect:"Broken urns have a 3 / 5 / 6% chance to contain healing.",use:"Break urns on the route, not mid-fight; the roll is per urn, so volume matters.",img:"assets/harpy-feather-duster.png"},
+    {id:"tooth",name:"Lucky Tooth",source:"Skelly",group:"guard",effect:"Restore 50 / 75 / 100 Health when Life is depleted, once per escape.",use:"It sits after Death Defiances, so treat it as a second safety net, not a replacement.",img:"assets/lucky-tooth.png"},
+    {id:"thunder",name:"Thunder Signet",source:"Zeus",group:"divine",effect:"Your next boon is Zeus; Zeus boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"The forced god applies only to the next boon; the rarity bonus stays after you swap.",img:"assets/thunder-signet.png"},
+    {id:"conch",name:"Conch Shell",source:"Poseidon",group:"divine",effect:"Your next boon is Poseidon; Poseidon boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Start Poseidon when you need a knockback core; the rarity bonus survives the swap.",img:"assets/conch-shell.png"},
+    {id:"owl",name:"Owl Pendant",source:"Athena",group:"divine",effect:"Your next boon is Athena; Athena boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force Divine Dash early, then swap; the rarity bonus keeps working all run.",img:"assets/owl-pendant.png"},
+    {id:"rose",name:"Eternal Rose",source:"Aphrodite",group:"divine",effect:"Your next boon is Aphrodite; Aphrodite boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Take it when Weak is the plan; the forced boon can be Attack, Special, Cast, or Dash.",img:"assets/eternal-rose.png"},
+    {id:"vial",name:"Blood-Filled Vial",source:"Ares",group:"divine",effect:"Your next boon is Ares; Ares boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force Doom onto the slot you hit most; the rarity bonus remains after the swap.",img:"assets/blood-filled-vial.png"},
+    {id:"arrowhead",name:"Adamant Arrowhead",source:"Artemis",group:"divine",effect:"Your next boon is Artemis; Artemis boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force the crit core before a Heart Rend run; the bonus persists after you swap.",img:"assets/adamant-arrowhead.png"},
+    {id:"cup",name:"Overflowing Cup",source:"Dionysus",group:"divine",effect:"Your next boon is Dionysus; Dionysus boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Start Hangover on the slot you apply fastest; the rarity bonus outlives the keepsake.",img:"assets/overflowing-cup.png"},
+    {id:"plume",name:"Lambent Plume",source:"Hermes",group:"economy",effect:"Gain +1 / +1.1 / +1.2% dodge and move speed for each encounter cleared quickly.",use:"Speed-clear rooms; Troves do not count, but Survival encounters do.",img:"assets/lambent-plume.png"},
+    {id:"horn",name:"Frostbitten Horn",source:"Demeter",group:"divine",effect:"Your next boon is Demeter; Demeter boons have +10 / +15 / +20% Rare-or-better chance for the run.",use:"Force the Demeter core for a cast or Frost build; the rarity bonus stays after the swap.",img:"assets/frostbitten-horn.png"},
+    {id:"egg",name:"Cosmic Egg",source:"Chaos",group:"economy",effect:"Enter Chaos Gates without losing Health; Chaos boons have +20 / +30 / +40% Rare-or-better chance.",use:"Enter Chaos at full Life to bank the free gate; the bonus applies only to Chaos boons.",img:"assets/cosmic-egg.png"},
+    {id:"shackle",name:"Shattered Shackle",source:"Sisyphus",group:"damage",effect:"Attack, Special, and Cast deal +50 / +75 / +100% damage while not empowered by a Boon.",use:"Take it before you pick up Attack, Special, or Cast boons; it turns off the moment a god empowers that slot.",img:"assets/shattered-shackle.png"},
+    {id:"acorn",name:"Evergreen Acorn",source:"Eurydice",group:"guard",effect:"In the final encounter of each region, take 0 damage from the first 3 / 4 / 5 hits.",use:"Put it on before the region boss; the hits are consumed even by chip damage.",img:"assets/evergreen-acorn.png"},
+    {id:"spearpoint",name:"Broken Spearpoint",source:"Patroclus",group:"guard",effect:"After taking damage, become impervious for 1 / 1.25 / 1.5 sec; refreshes after 7 sec.",use:"Take it before Elysium's multi-hit fights; the 7-second internal cooldown is the real limit.",img:"assets/broken-spearpoint.png"},
+    {id:"pom",name:"Pom Blossom",source:"Persephone",group:"economy",effect:"Every 6 / 5 / 4 encounters, gain +1 Level to a random Boon.",use:"Equip early to bank levels, then swap before the boss; the levels stay with the boons.",img:"assets/pom-blossom.png"},
+    {id:"sigil",name:"Sigil of the Dead",source:"Hades",group:"divine",effect:"Call becomes Hades' Aid; God Gauge starts 10 / 20 / 30% full; stealth damage +50 / 75 / 100%.",use:"Only after the story. It replaces your Call, so do not build around another god's Aid.",img:"assets/sigil-of-the-dead.png"}
   ];
 
   const STASHES = [
-    {id:"battie",name:"Battie",source:"Megaera",effect:"Summon deals 2,500 damage in an area near the closest foe, then down the line.",limit:"Unusable against the Fury Sisters.",use:"Pick off a priority target in Elysium; the line damage is best in packed rooms.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/3/33/Battie.png/revision/latest?cb=20191221051314"},
-    {id:"mort",name:"Mort",source:"Thanatos",effect:"Summon deals 3,500 damage in an area in front after a short delay.",limit:"Unusable in Thanatos encounters.",use:"Save it for slow bosses; the delay can whiff against dash-heavy foes.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/55/Mort.png/revision/latest?cb=20191221052814"},
-    {id:"rib",name:"Rib",source:"Skelly",effect:"Summon creates a 250-Health distraction that provokes foes until it dies.",limit:"Unusable against Charon.",use:"Plant a 250-Health taunt for a free room reset; set it before you commit.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/b/b9/Rib.png/revision/latest?cb=20191221053218"},
-    {id:"shady",name:"Shady",source:"Sisyphus",effect:"Summon deals 1,000 damage in an area and drops 1 Darkness (10), 1 Obol (30), and 4 Health pickups (10 each).",limit:"One use per encounter.",use:"Treat it as an economy summon; the pickups can be saved for after the fight.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/18/Shady.png/revision/latest?cb=20191221053445"},
-    {id:"fidi",name:"Fidi",source:"Dusa",effect:"Summon joins for 30 sec, repeatedly firing shots that petrify and deal 70 damage.",limit:"Unavailable while Dusa is away from the House.",use:"Treat it as 30 seconds of petrify pressure; great in Styx tunnels and crowded Elysium rooms.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/0/05/Fidi.png/revision/latest?cb=20200706211718"},
-    {id:"antos",name:"Antos",source:"Achilles",effect:"Summon deals 1,500 damage to two foes, one after another.",limit:"One use per encounter.",use:"Bring it for two-target burst in Styx tunnels and against paired elites.",img:"https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/66/Antos.png/revision/latest?cb=20200706211643"}
+    {id:"battie",name:"Battie",source:"Megaera",effect:"Summon deals 2,500 damage in an area near the closest foe, then down the line.",limit:"Unusable against the Fury Sisters.",use:"Pick off a priority target in Elysium; the line damage is best in packed rooms.",img:"assets/battie.png"},
+    {id:"mort",name:"Mort",source:"Thanatos",effect:"Summon deals 3,500 damage in an area in front after a short delay.",limit:"Unusable in Thanatos encounters.",use:"Save it for slow bosses; the delay can whiff against dash-heavy foes.",img:"assets/mort.png"},
+    {id:"rib",name:"Rib",source:"Skelly",effect:"Summon creates a 250-Health distraction that provokes foes until it dies.",limit:"Unusable against Charon.",use:"Plant a 250-Health taunt for a free room reset; set it before you commit.",img:"assets/rib.png"},
+    {id:"shady",name:"Shady",source:"Sisyphus",effect:"Summon deals 1,000 damage in an area and drops 1 Darkness (10), 1 Obol (30), and 4 Health pickups (10 each).",limit:"One use per encounter.",use:"Treat it as an economy summon; the pickups can be saved for after the fight.",img:"assets/shady.png"},
+    {id:"fidi",name:"Fidi",source:"Dusa",effect:"Summon joins for 30 sec, repeatedly firing shots that petrify and deal 70 damage.",limit:"Unavailable while Dusa is away from the House.",use:"Treat it as 30 seconds of petrify pressure; great in Styx tunnels and crowded Elysium rooms.",img:"assets/fidi.png"},
+    {id:"antos",name:"Antos",source:"Achilles",effect:"Summon deals 1,500 damage to two foes, one after another.",limit:"One use per encounter.",use:"Bring it for two-target burst in Styx tunnels and against paired elites.",img:"assets/antos.png"}
   ];
   const LEGENDARIES = {
     "Unhealthy Fixation":{god:"Aphrodite", effect:"Charmed foes take 15% more damage and are Charmed for 4 sec.", prereq:"One Attack boon and one Weak boon."},
@@ -1428,7 +1428,7 @@
         {god:"Artemis", boons:["Deadly Strike","Deadly Flourish","True Shot"]}
       ],
       draft:"Aphrodite Attack or Special first, then Artemis; Weak must be online before crits matter.",
-      pool:"Two gods plus Athena. Do not sell the Weak source—Heart Rend needs it.",
+      pool:"Two gods plus Athena. Do not sell the Weak sourceâ€”Heart Rend needs it.",
       pairings:["bow-chiron","bow-rama","bow-zagreus","rail-hestia","fists-demeter"],
       force:"Open Aphrodite's Heartbreak Strike, force Artemis in Asphodel, and apply Weak before spending the crit window."
     },
@@ -1482,7 +1482,7 @@
         {god:"Zeus", boons:["Lightning Strike","Thunder Flourish","Electric Shot","Thunder Dash","Zeus' Aid"]}
       ],
       draft:"Artemis core first, then Zeus; the Mirror must be Infernal Soul so stones stay embedded.",
-      pool:"Two gods, one flex. Do not take Hera—loading Casts removes the stones from the floor.",
+      pool:"Two gods, one flex. Do not take Heraâ€”loading Casts removes the stones from the floor.",
       mirror:"Infernal Soul",
       pairings:["shield-zeus","sword-poseidon","rail-zagreus"],
       force:"Take Artemis' Deadly Strike, force Zeus, and run Infernal Soul; leave bloodstones embedded near the fight."
@@ -1490,7 +1490,7 @@
     {
       id:"curse-of-longing", name:"Curse of Longing", gods:["Aphrodite","Ares"], meta:false,
       effect:"Doom effects repeatedly hit Weak foes; successive hits deal 50% damage.",
-      chips:["50% repeat","Doom × Weak"],
+      chips:["50% repeat","Doom Ã— Weak"],
       prereqs:[
         {god:"Aphrodite", boons:["Heartbreak Strike","Heartbreak Flourish","Crush Shot","Passion Dash"]},
         {god:"Ares", boons:["Curse of Agony","Curse of Pain"]}
@@ -1523,7 +1523,7 @@
         {god:"Demeter", boons:["Crystal Beam"]}
       ],
       draft:"Demeter Crystal Beam first, then Aphrodite; the Cast slot is locked.",
-      pool:"Two gods, one flex. Do not take Crystal Clarity—it blocks this duo.",
+      pool:"Two gods, one flex. Do not take Crystal Clarityâ€”it blocks this duo.",
       incompatible:["Beowulf","Crystal Clarity"],
       pairings:["sword-poseidon","bow-hera","spear-achilles"],
       force:"Take Demeter's Crystal Beam, force Aphrodite, and keep the beam on you while you reposition."
@@ -1550,20 +1550,20 @@
         {god:"Poseidon", boons:["Tempest Strike","Tempest Flourish","Flood Shot","Tidal Dash","Poseidon's Aid"]}
       ],
       draft:"Aphrodite core first, then Poseidon; take it before you spend Poms, not after.",
-      pool:"Two gods, one flex. This is an economy duo—value comes from Pom timing.",
+      pool:"Two gods, one flex. This is an economy duoâ€”value comes from Pom timing.",
       pairings:["bow-hera","bow-chiron","rail-hestia","shield-zeus"],
       force:"Take Aphrodite and Poseidon early, then hold your Poms until Sweet Nectar is offered."
     },
     {
       id:"freezing-vortex", name:"Freezing Vortex", gods:["Ares","Demeter"], meta:false,
       effect:"Your Slicing Shot Cast inflicts Chill; the Blade Rift is 15% smaller and moves slower.",
-      chips:["Chill","−15% size"],
+      chips:["Chill","âˆ’15% size"],
       prereqs:[
         {god:"Ares", boons:["Slicing Shot"]},
         {god:"Demeter", boons:["Frost Strike","Frost Flourish","Mistral Dash","Demeter's Aid"]}
       ],
       draft:"Ares Slicing Shot first, then Demeter; the Cast slot is locked.",
-      pool:"Two gods, one flex. Do not take Hunting Blades—the two duos conflict.",
+      pool:"Two gods, one flex. Do not take Hunting Bladesâ€”the two duos conflict.",
       incompatible:["Hunting Blades"],
       pairings:["spear-achilles","bow-hera","sword-poseidon"],
       force:"Take Ares' Slicing Shot, force Demeter, and use the Chill field to hold a room in place."
@@ -1571,7 +1571,7 @@
     {
       id:"curse-of-nausea", name:"Curse of Nausea", gods:["Dionysus","Ares"], meta:false,
       effect:"Hangover ticks every 0.35 seconds instead of every 0.5 seconds.",
-      chips:["0.5 → 0.35 sec","Hangover"],
+      chips:["0.5 â†’ 0.35 sec","Hangover"],
       prereqs:[
         {god:"Dionysus", boons:["Drunken Strike","Drunken Flourish","Drunken Dash","Dionysus' Aid"]},
         {god:"Ares", boons:["Curse of Agony","Curse of Pain","Curse of Vengeance"]}
@@ -1590,7 +1590,7 @@
         {god:"Poseidon", boons:["Flood Shot"]}
       ],
       draft:"Poseidon Flood Shot first, then Ares; the Cast slot is locked.",
-      pool:"Two gods, one flex. Do not take Mirage Shot or Blizzard Shot—they conflict.",
+      pool:"Two gods, one flex. Do not take Mirage Shot or Blizzard Shotâ€”they conflict.",
       incompatible:["Hera","Mirage Shot","Blizzard Shot"],
       pairings:["sword-poseidon","spear-achilles","shield-zeus"],
       force:"Take Poseidon's Flood Shot as your Cast, force Ares, and use the triple pulse at point-blank."
@@ -1604,7 +1604,7 @@
         {god:"Zeus", boons:["Lightning Strike","Thunder Flourish","Electric Shot","Thunder Dash","Zeus' Aid"]}
       ],
       draft:"Ares core first, then Zeus; you also need any Revenge boon before the duo can appear.",
-      pool:"Two gods, one flex. The Revenge boon is a third requirement—plan for it.",
+      pool:"Two gods, one flex. The Revenge boon is a third requirementâ€”plan for it.",
       extra:"Plus any Revenge boon",
       pairings:["shield-zeus","fists-zagreus","fists-gilgamesh"],
       force:"Take Ares and Zeus cores plus a Revenge boon, then let the duo automate the retaliation."
@@ -1651,7 +1651,7 @@
     {
       id:"calculated-risk", name:"Calculated Risk", gods:["Dionysus","Athena"], meta:false,
       effect:"Enemy projectiles move 50% slower.",
-      chips:["−50% projectile speed","Safety"],
+      chips:["âˆ’50% projectile speed","Safety"],
       prereqs:[
         {god:"Dionysus", boons:["Drunken Strike","Drunken Flourish","Drunken Dash","Dionysus' Aid"]},
         {god:"Athena", boons:["Divine Strike","Divine Flourish","Divine Dash","Athena's Aid"]}
@@ -1664,7 +1664,7 @@
     {
       id:"unshakable-mettle", name:"Unshakable Mettle", gods:["Athena","Poseidon"], meta:false,
       effect:"You cannot be stunned, and you take 10% less damage from bosses.",
-      chips:["No stun","−10% boss damage"],
+      chips:["No stun","âˆ’10% boss damage"],
       prereqs:[
         {god:"Athena", boons:["Divine Strike","Divine Flourish","Phalanx Shot","Athena's Aid"]},
         {god:"Poseidon", boons:["Tempest Strike","Tempest Flourish","Flood Shot","Poseidon's Aid"]}
@@ -1683,7 +1683,7 @@
         {god:"Zeus", boons:["Lightning Strike","Thunder Flourish","Thunder Dash","Zeus' Aid"]}
       ],
       draft:"Athena Phalanx Shot first, then Zeus; the Cast slot is locked.",
-      pool:"Two gods, one flex. Do not bring Beowulf—the duo is incompatible.",
+      pool:"Two gods, one flex. Do not bring Beowulfâ€”the duo is incompatible.",
       incompatible:["Beowulf"],
       pairings:["bow-hera","sword-poseidon","spear-achilles"],
       force:"Take Athena's Phalanx Shot, force Zeus, and fire into packs so the bounce finds every target."
@@ -1710,7 +1710,7 @@
         {god:"Poseidon", boons:["Flood Shot"]}
       ],
       draft:"Poseidon Flood Shot first, then Demeter; the Cast slot is locked.",
-      pool:"Two gods, one flex. Do not bring Beowulf—the duo is incompatible.",
+      pool:"Two gods, one flex. Do not bring Beowulfâ€”the duo is incompatible.",
       incompatible:["Beowulf"],
       pairings:["bow-hera","spear-achilles","sword-poseidon"],
       force:"Take Poseidon's Flood Shot, force Demeter, and fire down a corridor so all 40 shards connect."
@@ -1945,7 +1945,7 @@
 
     $("#forge").innerHTML = '<div class="forge">'
       + '<div class="forge-head"><div><div class="eyebrow">The Forge</div><h2>How to force a duo</h2></div>'
-      + '<div class="forge-count"><strong>'+count+'</strong> shown · 28 in codex · 8 meta</div></div>'
+      + '<div class="forge-count"><strong>'+count+'</strong> shown Â· 28 in codex Â· 8 meta</div></div>'
       + '<p class="forge-lede">A duo is not a random reward. It is a recipe: one qualifying core from each parent, both gods in the pool, and no incompatible aspect. The cards below list the exact cores.</p>'
       + '<div class="forge-steps">'+steps+'</div>'
       + '<div class="troubleshoot"><h3>'+icon("warning")+'If the duo is not showing</h3><div class="trouble-grid">'+trouble+'</div></div>'
@@ -1980,11 +1980,11 @@
     const mirror = d.mirror ? '<div class="mirror-line">'+icon("mirror")+'Mirror: '+d.mirror+'</div>' : "";
     const extra = d.extra ? '<div class="mirror-line">'+icon("spark")+d.extra+'</div>' : "";
     const warn = d.incompatible && d.incompatible.length
-      ? '<p class="warning"><span style="display:inline-flex;width:14px;height:14px">'+icon("warning")+'</span>Not with '+d.incompatible.join(" · ")+'</p>'
+      ? '<p class="warning"><span style="display:inline-flex;width:14px;height:14px">'+icon("warning")+'</span>Not with '+d.incompatible.join(" Â· ")+'</p>'
       : "";
 
     return '<article class="duo-card'+(d.meta ? " is-meta" : "")+'" id="duo-'+d.id+'" style="--a:'+a.color+';--b:'+b.color+'">'
-      + '<div class="duo-head"><div class="god-pair">'+godBadge(d.gods[0],"sm")+godBadge(d.gods[1],"sm")+'<span class="pair-label">'+d.gods[0]+' × '+d.gods[1]+'</span></div>'
+      + '<div class="duo-head"><div class="god-pair">'+godBadge(d.gods[0],"sm")+godBadge(d.gods[1],"sm")+'<span class="pair-label">'+d.gods[0]+' Ã— '+d.gods[1]+'</span></div>'
       + (d.meta ? '<span class="meta-badge">Meta pick</span>' : '')+'</div>'
       + '<div class="duo-title"><h3>'+d.name+'</h3></div>'
       + '<p class="duo-effect">'+d.effect+'</p>'
@@ -2103,7 +2103,7 @@
 
     $("#stash-rules").innerHTML = [
       ["One per encounter","A summon is a button, not a passive. Save it for the room that needs it."],
-      ["1 → 5 charges","Base one use; each Ambrosia adds one, to a maximum of five."],
+      ["1 â†’ 5 charges","Base one use; each Ambrosia adds one, to a maximum of five."],
       ["No mid-run swaps","Choose the companion at the Cabinet; the slot is locked for the escape."],
       ["Hades clause","Only Shady and Rib can be used against Hades until the bond is complete."]
     ].map(r => '<div class="stash-rule"><b>'+r[0]+'</b><span>'+r[1]+'</span></div>').join("");
@@ -2113,11 +2113,11 @@
       const d = duoByName(t.name);
       if(!d) return "";
       return '<button class="target-card" type="button" data-open-duo="'+d.id+'">'
-        + '<div class="target-type">'+godBadge(d.gods[0],"xs")+godBadge(d.gods[1],"xs")+'Duo · '+d.gods[0]+' × '+d.gods[1]+'<span class="target-open">Open</span></div>'
+        + '<div class="target-type">'+godBadge(d.gods[0],"xs")+godBadge(d.gods[1],"xs")+'Duo Â· '+d.gods[0]+' Ã— '+d.gods[1]+'<span class="target-open">Open</span></div>'
         + '<h4>'+d.name+'</h4><p>'+d.effect+'</p></button>';
     }
     const l = LEGENDARIES[t.name] || {god:t.god, effect:""};
-    return '<div class="target-card"><div class="target-type">'+godBadge(l.god,"xs")+'Legendary · '+l.god+'</div>'
+    return '<div class="target-card"><div class="target-type">'+godBadge(l.god,"xs")+'Legendary Â· '+l.god+'</div>'
       + '<h4>'+t.name+'</h4><p>'+l.effect+'</p></div>';
   }
 
@@ -2170,7 +2170,7 @@
       + '<div class="modal-art-visual art-wrap">'+aspectEmblem(a,true)
       + '<img src="'+wikiUrl(a.image,520)+'" alt="'+a.name+' aspect artwork" loading="lazy" onload="this.parentElement.classList.add(\'img-loaded\')" onerror="this.remove()"></div>'
       + '<div class="modal-art-foot"><div class="patron-line">Aspect of <strong>'+a.name+'</strong></div>'
-      + '<div class="rank-line">Level 5 · Titan Blood · '+t.label+'</div>'
+      + '<div class="rank-line">Level 5 Â· Titan Blood Â· '+t.label+'</div>'
       + '<div class="rank-line">Patron '+a.patron+'</div></div>';
 
     const lines = buildLines(a);
@@ -2191,9 +2191,9 @@
       + '<span class="route-god">'+(k.god ? godBadge(k.god,"xs")+k.god : '<span class="route-note">'+routeNote(k)+'</span>')+'</span></div>'
     ).join("");
 
-    $("#modal-body").innerHTML = '<div class="dossier-head"><div class="eyebrow">'+weaponFull(a.weapon)+' · Dossier</div>'
+    $("#modal-body").innerHTML = '<div class="dossier-head"><div class="eyebrow">'+weaponFull(a.weapon)+' Â· Dossier</div>'
       + '<h2 id="modal-title">'+a.name+'</h2>'
-      + '<div class="modal-tags"><span class="gold-tag">Tier '+a.tier+' · '+t.label+'</span><span>Level 5</span><span>'+a.signature+'</span></div>'
+      + '<div class="modal-tags"><span class="gold-tag">Tier '+a.tier+' Â· '+t.label+'</span><span>Level 5</span><span>'+a.signature+'</span></div>'
       + '<p class="flavor">'+a.lore+'</p></div>'
       + '<section class="dossier-section"><div class="section-head"><span class="section-num">01</span><h3>The art</h3></div>'
       + '<p class="section-copy">'+a.tagline+'</p><div class="identity-tags"><span>'+weaponShort(a.weapon)+'</span><span>'+a.patron+'</span><span>'+a.signature+'</span><span>Max rank</span></div></section>'
@@ -2288,10 +2288,10 @@
     $("#duo-panel").hidden = state.tab !== "duos";
     $("#keep-panel").hidden = state.tab !== "keepsakes";
     $("#search").placeholder = state.tab === "keepsakes"
-      ? "Search keepsakes, companions, sources…"
+      ? "Search keepsakes, companions, sourcesâ€¦"
       : state.tab === "duos"
-        ? "Search duos, gods, effects, pairings…"
-        : "Search aspects, boons, hammers, duos…";
+        ? "Search duos, gods, effects, pairingsâ€¦"
+        : "Search aspects, boons, hammers, duosâ€¦";
     if(push !== false) history.replaceState(null, "", "#"+state.tab);
     render();
   }
